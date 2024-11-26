@@ -1,4 +1,4 @@
-FROM ngnix
+FROM nginx
 MAINTAINER my name is meher
 LABEL creating image
 EXPOSE 80
