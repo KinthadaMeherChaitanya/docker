@@ -2,5 +2,5 @@ FROM nginx
 MAINTAINER my name is meher
 LABEL creating image
 EXPOSE 80
-COPY static/index.html /usr/share/nginx/html
+COPY static/* /usr/share/nginx/html
 RUN touch google
